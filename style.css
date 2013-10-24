@@ -1,0 +1,22 @@
+h1 {
+    color: #ecf0f1;
+    text-align: center
+}
+h2 {
+    color: blue;
+}
+.link {
+    text-align: center;
+    size: 20px;
+}
+.intro {
+    text-align: center;
+}
+
+body {
+    font-family: garamond;
+    background: #f39c12;
+}
+td {
+    width: 33%;
+}
