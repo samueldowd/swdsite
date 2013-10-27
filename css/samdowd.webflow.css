@@ -101,7 +101,7 @@ p {
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 328px;
-  background-image: url(../images/SamDowd%20228.jpg);
+  background-image: url(../images/SamDowd%20228_opt.jpg);
   background-size: cover;
   background-repeat: no-repeat no-repeat;
   background-attachment: scroll;
@@ -124,7 +124,7 @@ p {
 .section.bg-image {
   padding-top: 125px;
   padding-bottom: 125px;
-  background-image: url(../images/SamDowd%20289.jpg);
+  background-image: url(../images/rsz_samdowd_289.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -134,7 +134,7 @@ p {
   margin-bottom: 1px;
   padding-top: 2px;
   padding-bottom: 1px;
-  background-image: url(../images/IMG_20130704_201647.jpg);
+  background-image: url(../images/rsz_img_20130704_201647.jpg);
   background-position: 50% 89px;
   background-size: cover;
   background-attachment: fixed;
@@ -432,7 +432,7 @@ p {
   .section.header {
     position: static;
     padding-bottom: 171px;
-    background-image: url(../images/SamDowd%20228.jpg);
+    background-image: url(../images/rsz_1samdowd_228.jpg);
     background-position: 50% 100%;
     background-size: cover;
     background-repeat: repeat repeat;
@@ -450,12 +450,12 @@ p {
   }
   .section.bg-image {
     position: static;
-    background-image: url(../images/SamDowd%20289.jpg);
+    background-image: url(../images/rsz_samdowd_289.jpg);
     background-position: 50% 50%;
     background-attachment: fixed;
   }
   .section.map {
-    background-image: url(../images/IMG_20130704_201647.jpg);
+    background-image: url(../images/rsz_img_20130704_201647.jpg);
     background-position: 50% 89px;
   }
   .nav-links {
@@ -547,7 +547,7 @@ p {
   }
   .section.header {
     padding-bottom: 99px;
-    background-image: url(../images/SamDowd%20228.jpg);
+    background-image: url(../images/rsz_1samdowd_228.jpg);
     background-position: 50% 50%;
     background-attachment: scroll;
   }
@@ -562,13 +562,18 @@ p {
     transition: all 500ms ease;
   }
   .section.bg-image {
-    background-image: url(../images/SamDowd%20289.jpg);
+    background-image: url(../images/rsz_samdowd_289.jpg);
     background-repeat: no-repeat no-repeat;
     background-attachment: fixed;
   }
   .section.map {
-    background-image: url(../images/IMG_20130704_201647.jpg);
-    background-position: 50% 89px;
+    height: 100px;
+    padding-top: 1px;
+    background-image: url(../images/rsz_img_20130704_201647.jpg);
+    background-position: 50% 156px;
+    background-size: 767px;
+    background-repeat: repeat repeat;
+    background-attachment: scroll;
   }
   .nav-links {
     float: none;
@@ -673,6 +678,11 @@ p {
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
   }
+  .header {
+    background-image: -webkit-linear-gradient(rgba(58, 84, 94, 0.30), rgba(58, 84, 94, 0));
+    background-image: -o-linear-gradient(rgba(58, 84, 94, 0.30), rgba(58, 84, 94, 0));
+    background-image: linear-gradient(rgba(58, 84, 94, 0.30), rgba(58, 84, 94, 0));
+  }
   .image-wrapper {
     text-align: right;
   }
@@ -721,7 +731,7 @@ p {
   }
   .section.header {
     padding-bottom: 51px;
-    background-image: url(../images/SamDowd%20228.jpg);
+    background-image: url(../images/rsz_1samdowd_228.jpg);
     background-position: 50% 50%;
   }
   .section.dark {
@@ -739,7 +749,7 @@ p {
   .section.bg-image {
     padding-top: 30px;
     padding-bottom: 30px;
-    background-image: url(../images/SamDowd%20289.jpg);
+    background-image: url(../images/rsz_samdowd_289.jpg);
     background-size: cover;
     background-attachment: scroll;
   }
