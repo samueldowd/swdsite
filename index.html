@@ -5,10 +5,11 @@
     <meta charset="utf-8">
     <title>Samuel W. Dowd</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/webflow.css">
-    <link rel="stylesheet" type="text/css" href="css/samdowd.webflow.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/webfont.js"></script>
     <script>
       WebFont.load({
         google: {
@@ -29,7 +30,33 @@
       })();
     </script>
     <script type="text/javascript" src="js/webflow.js" defer></script>
-  </head><body>
+    <link rel="stylesheet" type="text/css" href="css/webflow.css">
+    <link rel="stylesheet" type="text/css" href="css/samdowd.webflow.css">
+  </head>
+  <body>
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	        <h4 class="modal-title" id="myModalLabel">Treehouse</h4>
+	      </div>
+	      <div class="modal-body">
+	        <a href="http://referrals.trhou.se/samueldowd" target="_blank" class="alert-link"><img src="http://wac.a8b5.edgecastcdn.net/80A8B5/static-assets/assets/content/referral-badge-green.png"/></a>
+  		<p class="alert-text-right">My apologies for the massive distraction, but if you sign up for a Gold plan, Treehouse will donate a plan to a Public School student so he/she can learn real-world skills like entrepreneurship, app development, and web design. I'd really encourage you to check it out.<br>Click the image above or <a href="http://referrals.trhou.se/samueldowd">Click Here</a>.</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	<script type="text/javascript">
+	$('#myModal').modal({
+  keyboard: false
+	})
+	</script>
   <div class="section header" id="page-nav-top">
     <div class="w-row header">
       <div class="w-col w-col-3 logo-bar">

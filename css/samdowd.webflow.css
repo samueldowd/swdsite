@@ -154,6 +154,12 @@ p {
   text-transform: uppercase;
   text-shadow: rgba(0, 0, 0, 0.24) 0px 1px 0px;
 }
+.modal-body {
+  text-align: center;  
+}
+.modal-body p {
+  text-align: center;
+}
 .nav-links:hover {
   -webkit-transition: none;
   -o-transition: none;
@@ -302,7 +308,6 @@ p {
   padding-left: 30px;
 }
 .logolink {
-  position: fixed;
   margin-top: 30px;
   margin-right: 0px;
 }
