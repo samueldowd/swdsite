@@ -367,6 +367,10 @@ p {
   margin-right: auto;
   margin-left: auto;
 }
+.dark #helpouts-button {
+  width: 185px;
+  margin: 0 auto;
+}
 .image {
   padding-top: 70px;
   padding-bottom: 0px;
