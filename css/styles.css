@@ -1,0 +1,143 @@
+@font-face { 
+	font-family: Merriweather; 
+	src: url('fonts/Vollkorn-Regular.ttf');
+}
+@font-face { 
+	font-family: Merriweather-Bold; 
+	font-weight: bold; 
+	src: url('fonts/Merriweather-Bold.ttf');
+}
+@font-face { 
+	font-family: Merriweather-Italic; 
+	font-weight: italic; 
+	src: url('fonts/Merriweather-Italic.ttf');
+}
+@font-face { 
+	font-family: Raleway; 
+	src: url('fonts/Raleway-Regular.ttf'); 
+} 
+@font-face { 
+	font-family: Raleway-Bold; 
+	font-weight: bold; 
+	src: url('fonts/Raleway-Bold.ttf'); 
+} 
+  	* {
+		margin: 0;
+		border: 0;
+	}
+	header a:visited {
+		color: white;
+	}
+	header a:link {
+		color: white;
+	}
+	header h1 {
+		color: white;
+	}
+	.banner {
+		width: 100%;
+	}
+	.transHead {
+		height: 100px;
+		background: rgba(0, 0, 0, 0.6);
+	}
+	#logo {
+		height: 100px;
+		width: 100px;
+		background-size: cover;
+		margin: 0 20px;
+		float: left;
+	}
+	#name {
+		float: left;
+		padding: 35px 0 35px 0;
+	}
+	#navLinks {
+		float: right;
+		padding: 30px 30px 0 0;
+		display: block;
+		font-family: Raleway;
+	}
+	#nav li {
+		float: left;
+		padding: 5px 15px;   
+		font-weight: bold;  
+		font-size: 1.25em;
+		color: #FFFFFF;
+		list-style: none;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		-webkit-transition: all 0.3s ease-in-out;   
+		-moz-transition: all 0.3s ease-in-out;   
+		-o-transition: all 0.3s ease-in-out;   
+		transition: all 0.3s ease-in-out;
+		margin: 0 20px 0 20px;
+	}
+	#nav li a {
+		text-decoration: none;
+		color: white;
+	}
+	#nav li:hover {
+		background: rgba(255, 255, 255, 0.35);
+	}
+body {
+	font-family: Merriweather, serif;
+	color: #666
+}
+.swdLogo {
+	-moz-box-shadow:    1px 1px 1px 1px #ccc;
+  	-webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  	box-shadow:         1px 1px 1px 1px #ccc;
+  	width: 100px;
+  	margin: 5px;
+}
+#head {
+	text-align: center;
+	border-bottom: 2px solid #666;
+	width: 900px;
+	margin: 0 auto;
+}
+.resBody {
+	width: 900px;
+	margin: 0 auto;
+}
+h3,h1 {
+	text-align: center;
+	font-family: Raleway-Bold, sans-serif;
+	font-weight: bold;
+}
+.degree,.school,.title,.company {
+	display: inline;
+}
+.degree,.title,.group {
+	font-weight: bold;
+}
+.degree,.school,.schoolDates,.gps,
+.title,.group,.company,.city,.work p {
+	margin: 0;
+}
+.gpa,.schoolDates,.workDates {
+	float: right;
+}
+.inst {
+	margin-bottom: 10px;
+}
+.workTitle {
+	margin-bottom: 2px;
+}
+#skills ul {
+	float: left;
+	width: 33.3333333%;
+}
+#skills {
+	width: 100%;
+	display: inline-block;
+}
+#foot {
+	text-align: center;
+	width: 900px;
+	margin: 10px auto;
+	border-top: 2px solid #666;
+	display: block;
+	padding-top: 10px;
+}
