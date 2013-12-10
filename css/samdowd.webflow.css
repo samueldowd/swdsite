@@ -66,7 +66,7 @@ p {
   margin-bottom: 5px;
   text-align: left;
 }
-.button {
+.button,button {
   display: inline-block;
   margin-top: 20px;
   margin-left: 0px;
@@ -83,6 +83,7 @@ p {
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
+  border:none;
 }
 .button:hover {
   border: 0px none #b6b6b6;
@@ -92,6 +93,9 @@ p {
   transition: none;
   color: white;
   font-weight: 700;
+}
+#pubBut {
+  height: 29px;
 }
 .section {
   padding-top: 90px;
